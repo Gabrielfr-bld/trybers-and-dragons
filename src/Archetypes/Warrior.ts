@@ -7,7 +7,7 @@ class Warrior extends Archetype {
 
   constructor(name:string) {
     super(name);
-    this.energyType = 'mana';
+    this.energyType = 'stamina';
     Warrior.incrementWarriorInstance();
   }
 
