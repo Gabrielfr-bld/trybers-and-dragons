@@ -29,7 +29,7 @@ abstract class Archetype {
     this._archetypeInstances += 1;
   }
 
-  public static createdArtchetypeInstances(): number {
+  static createdArchetypeInstances(): number {
     throw new Error('Not implemented');
   }
 

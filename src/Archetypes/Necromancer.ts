@@ -15,7 +15,7 @@ class Necromancer extends Archetype {
     Necromancer._necromancerInstances += 1;
   }
 
-  public static createdArtchetypeInstances(): number {
+  static createdArchetypeInstances(): number {
     return Necromancer._necromancerInstances;
   }
 }

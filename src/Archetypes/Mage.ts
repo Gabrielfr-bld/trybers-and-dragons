@@ -15,7 +15,7 @@ class Mage extends Archetype {
     Mage._mageInstances += 1;
   }
 
-  public static createdArtchetypeInstances(): number {
+  static createdArchetypeInstances(): number {
     return Mage._mageInstances;
   }
 }

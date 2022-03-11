@@ -15,7 +15,7 @@ class Warrior extends Archetype {
     Warrior._warriorInstances += 1;
   }
 
-  public static createdArtchetypeInstances(): number {
+  static createdArchetypeInstances(): number {
     return Warrior._warriorInstances;
   }
 }
